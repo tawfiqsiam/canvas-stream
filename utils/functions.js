@@ -78,8 +78,6 @@ module.exports = (client) => {
         });
     });
     
-    process.on('unhandledRejection', error => {
-        client.logger.log(`Unhandled Rejection: ${error}`);
-    });
+    
 
 };
